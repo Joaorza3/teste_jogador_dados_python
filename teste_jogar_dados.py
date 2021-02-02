@@ -7,7 +7,7 @@ def joga_dado():
         # Adicionando o valor pseudo-randômico na variável
         dado = int(random()*10)
 
-        # Se o valor de dado for menor que 7 (dado só tem 5 lados) e não for igual a zero eu saio do loop
+        # Se o valor de dado for menor que 7 e não for igual a zero eu saio do loop
         if dado < 7 and dado != 0:
             break
 
